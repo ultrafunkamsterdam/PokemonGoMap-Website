@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="ISO-8859-1">
-    <title>Pokémon Go Map</title>
+    <title>PokÃ©mon Go Map</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -38,7 +38,7 @@
       <!-- Header -->
       <header id="header">
         <a href="#nav"><span class="label">Options</span></a>
-        <h1><a href="#">Pokémon Go Map</a></h1>
+        <h1><a href="#">PokÃ©mon Go Map</a></h1>
         <a href="#stats" id="statsToggle" class="statsNav" style="float: right;"><span class="label">Stats</span></a>
       </header>
       <!-- NAV -->
@@ -47,7 +47,7 @@
           <h3>Marker Settings</h3>
           <div>
             <div class="form-control switch-container">
-              <h3>Pokémon</h3>
+              <h3>PokÃ©mon</h3>
               <div class="onoffswitch">
                 <input id="pokemon-switch" type="checkbox" name="pokemon-switch" class="onoffswitch-checkbox" checked>
                 <label class="onoffswitch-label" for="pokemon-switch">
@@ -67,7 +67,7 @@
               </div>
             </div>
             <div class="form-control switch-container">
-              <h3>Pokéstops</h3>
+              <h3>PokÃ©stops</h3>
               <div class="onoffswitch">
                 <input id="pokestops-switch" type="checkbox" name="pokestops-switch" class="onoffswitch-checkbox" checked>
                 <label class="onoffswitch-label" for="pokestops-switch">
@@ -104,7 +104,7 @@
             </div>
             <div class="form-control">
               <label for="exclude-pokemon">
-              <h3>Hide Pokémon</h3>
+              <h3>Hide PokÃ©mon</h3>
               <div style="max-height:165px;overflow-y:auto">
                 <select id="exclude-pokemon" multiple="multiple"></select>
               </div>
@@ -166,7 +166,7 @@
           <div>
             <div class="form-control">
               <label for="notify-pokemon">
-                <h3>Notify of Pokémon</h3>
+                <h3>Notify of PokÃ©mon</h3>
                 <div style="max-height:165px;overflow-y:auto">
                   <select id="notify-pokemon" multiple="multiple"></select>
                 </div>
@@ -247,6 +247,6 @@
     </script>
     <script src="static/dist/js/map.min-unminified.js"></script>
     <script src="static/dist/js/stats.min-unminified.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOn4BZH6sonWw3smWCHBb4muxMSb8E6mU&amp;callback=initMap&amp;libraries=places,geometry"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_GOES_HERE&amp;callback=initMap&amp;libraries=places,geometry"></script>
   </body>
 </html>
