@@ -16,6 +16,9 @@ Change index.html line 245 and 246. Find a lat lon genenerator online, pick your
 var centerLat = "1.234567";
 var centerLng = "5.67890";
 
+In this line, your apikey must be supplied
+<script defer src="https://maps.googleapis.com/maps/api/js?key=APIKEYGOESHERE&amp;callback=initMap&amp;libraries=places,geometry"></script>
+
 
 Change /static/dist/js/map.min-unminified.js to point to your instance.
 line 6
