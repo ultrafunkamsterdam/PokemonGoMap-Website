@@ -1,4 +1,7 @@
 # PokemonGoMap-Website
+
+<img src="screenshot.png"></img>
+
 Upload a static website, so you can share your scanning session with others. They cannot move marker or start searches.
 
 You need to have a running PokemonGo-Map instance that is accessible from the web.
