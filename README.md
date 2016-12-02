@@ -7,17 +7,10 @@ Users can't send any commands, they can just read what is being scanned, and sto
 
 You need to change 3 files in order to make it work.
 
+Open index.html, preferably in notepad++ (because of the line breaks and  UTF-8).
+on line 38 and 40  -or if you don't know how to get there, just browse untill you see the text `/* ADD YOUR POKEMONGO-MAPS SERVER INSTANCE LINK HERE.)`
 
-Change index.html line 34 :
-<script>var baseURL = "http(s)://yourdomain.tld/";></script> 
+You will see 2 required fields to be filled.
+After that, you can set your initial location and zoomlevel.
 
-Change index.html line 245 and 246. Find a lat lon genenerator online, pick your starting point, get the latitude and longitude and use them in this 2 vars.
-
-var centerLat = "1.234567";
-var centerLng = "5.67890";
-
-In line 250, the google api js script, you need to paste your api-key.
-
-Change /static/dist/js/map.min-unminified.js to point to your instance.
-line 6
-var baseURL = "http(s)://yourdomainorip:(portmaybe>/
+No support is given whatsoever :).
