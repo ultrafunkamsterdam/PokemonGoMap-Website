@@ -1,6 +1,6 @@
 # PokemonGoMap-Website
 
-<img src="screenshot.png"></img>
+<img src="screenshot.png"></img><img src="screenshot2.png"></img>
 
 Upload a static website, so you can share your scanning session with others. They cannot move marker or start searches.
 
